@@ -1,17 +1,18 @@
-* {
+* { /*Zerar margem e espaço em geral */
     margin: 0px;
     padding: 0px;
 }
+/*definido letras e cor de fundo*/
 body {
     font-family: Arial, Helvetica, sans-serif;
     background-color: black;
 }
-
+/*tamanho e margem do site*/
 .container{
     max-width: 1000px;
     margin: auto;
 }
-
+/* definição de cor de fundo, centralização do texto,cor da letra e espaçamento*/
 header {
     background-color: #48C5CE;
     text-align: center;
@@ -19,7 +20,7 @@ header {
     padding: 10px;
     
 }
-    
+ /*Tamanho da letra*/   
 .title {
     font-size: 25px;
 
@@ -34,10 +35,10 @@ section {
 
 }    
 .formcontainer {
-    max-width: 230px;
-    padding: 20px;
-    float: right;
-    background-color: #ffffffbb;
+    max-width: 230px;/*tamanho de container lateral*/
+    padding: 20px; /*padding para espaço da lateral*/
+    float: right; /*flutuamento da container lado direito*/
+    background-color: #ffffffbb; /*fundo*/
 }
 h2 {
     font-size: 16px;
@@ -46,22 +47,22 @@ h2 {
     margin-bottom: 15px;
 
 }
-input, select {
-    width: 100%;
-    margin-bottom: 10px;
-    border: none;
-    box-sizing: border-box;
-    padding: 18px;
+input, select { 
+    width: 100%;/*tamanho do formulario*/
+    margin-bottom: 10px;/*espaço entre os blocos de formulario*/
+    border: none; /*sem borda*/
+    box-sizing: border-box; /*colocar a borda dentro da container*/
+    padding: 18px; /*espaçamento e tamanho da container*/
 }
 input[type="submit"] {
-    color: white;
-    background-color: #48C5CE;
-    font-weight: bold;
+    color: white; /*letra do input inscreva-se*/
+    background-color: #48C5CE;/*fundo*/
+    font-weight: bold; /*negrito*/
     
 }
 
 
-select {
+select { /*class criada para colocar um fakeseta na opçao de cidade ...*/
  -moz-appearance: none;   
  -webkit-appearance: none;
  -moz-appearance: none;
@@ -70,7 +71,7 @@ select {
  background-position-x: calc(100% - 10px);
  background-position-y: center;
 
-}
+} /*tamanho da img, palestrante*/
 .picture{
     width: 160px;
 }
